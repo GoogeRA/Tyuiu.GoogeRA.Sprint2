@@ -12,6 +12,10 @@ namespace Tyuiu.GoogeRA.Sprint2.Task6.V10.Test
         public void TestMethod1()
         {
 
+            DataService ds = new DataService();
+
+            Assert.AreEqual("31.12.23", ds.FindDateOfPreviousDay(24, 1, 1));
+
         }
     }
 }

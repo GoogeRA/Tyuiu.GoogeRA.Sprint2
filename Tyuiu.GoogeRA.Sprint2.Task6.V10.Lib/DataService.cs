@@ -50,7 +50,7 @@ namespace Tyuiu.GoogeRA.Sprint2.Task6.V10.Lib
                     break;
                      
             }
-            
+            return Convert.ToString(n) + "." + Convert.ToString(m) + "." + Convert.ToString(g);
 
 
         }
