@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Condsf")]
+[assembly: AssemblyTitle("Tyuiu.GoogeRA.Sprint2.Task7.V3")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Condsf")]
+[assembly: AssemblyProduct("Tyuiu.GoogeRA.Sprint2.Task7.V3")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e21a119d-2e3d-4c47-85ca-3c7e0efdf24c")]
+[assembly: Guid("bbee682b-8991-45dc-825c-0ed49b6ca9a2")]
 
 // Version information for an assembly consists of the following four values:
 //
