@@ -13,36 +13,43 @@ namespace Tyuiu.GoogRA.Sprint2.Task5.V11.Lib
         public string FindDateOfNextDay(int g, int m, int n)
         {
 
-            string res;
-            switch (n)
+            switch(n)
             {
-                case 1:
+                case 30:
                     switch (m)
                     {
-                        case 1:
-                            n = 31;
-                            m = 12;
+                        case 4:
+                        case 6:
+                        case 9:
+                        case 11:
+                            n = 1;
+                            m++;
+                            break;
+                        default:
+                            n++;
+                            break;
+                    }
+                    break;
+                case 28:
+                    switch (m)
+                    {
+                        case 2:
+                            n = 1;
+                            m++;
+                            break;
+                    }
+                    break;
+                case 31:
+                    switch (m)
+                    {
+                        case 12:
+                            n = 1;
+                            m = 1;
                             g++;
                             break;
                         default:
+                            n = 1;
                             m++;
-                            switch (m)
-                            {
-                                case 1:
-                                case 3:
-                                case 5:
-                                case 7:
-                                case 8:
-                                case 10:
-                                    n = 31;
-                                    break;
-                                case 2:
-                                    n = 28;
-                                    break;
-                                default:
-                                    n = 30;
-                                    break;
-                            }
                             break;
                     }
                     break;
@@ -50,9 +57,7 @@ namespace Tyuiu.GoogRA.Sprint2.Task5.V11.Lib
                     n++;
                     break;
             }
-
-        }
-            
+            return Convert.ToString(n) + "." + Convert.ToString(m) + "." + Convert.ToString(g);
         }
     }
 }

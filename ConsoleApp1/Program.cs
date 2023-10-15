@@ -25,10 +25,10 @@ namespace ConsoleApp1
                         case 1:
                             n = 31;
                             m = 12;
-                            g++;
+                            g--;
                             break;
                         default:
-                            m++;
+                            m--;
                             switch (m)
                             {
                                 case 1:
@@ -50,7 +50,7 @@ namespace ConsoleApp1
                     }
                     break;
                 default:
-                    n++;
+                    n--;
                     break;
             }
 

@@ -12,10 +12,8 @@ namespace Tyuiu.GoogeRA.Sprint2.Task5.V11.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            int g, m, n;
-            string res = ds.FindDateOfNextDay(g, m, n);
 
-
+            Assert.AreEqual("1.1.23", ds.FindDateOfNextDay(22,12,31));
 
         }
     }
